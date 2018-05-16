@@ -36,5 +36,26 @@
   height: 100%;
   width: 80%;
   margin: auto;
+  margin-top: 75px;
   border: 1px solid black;
+}
+
+/* Product Page styles */
+/* Modularize these. */
+.product-page-container {
+  display: flex;
+  border: 1px solid black;
+}
+
+.product-section {
+  width: 50%;
+  height: 70vh;
+}
+
+.img {
+  background: white;
+}
+
+.details {
+  background: grey; 
 }
