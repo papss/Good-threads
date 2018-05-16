@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  width: 100%;
+  height: 60px;
+  background: orange;
+}
+
+.app-body {
+  flex-grow: 2;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: pink;
+}
+
+
+/* Header component styles */
+/* Modularize these?  */
+.site-header {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+
+  background: white;
+}
+
+/* Body component styles */
+/* Leave this here; modularize child component styles. */
+.main-container {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
