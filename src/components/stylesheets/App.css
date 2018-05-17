@@ -23,7 +23,7 @@
 /* Modularize these?  */
 .site-header {
   height: 100%;
-  width: 80%;
+  width: 65%;
   margin: auto;
   padding: 10px;
 
@@ -34,7 +34,7 @@
 /* Leave this here; modularize child component styles. */
 .main-container {
   height: 100%;
-  width: 80%;
+  width: 65%;
   margin: auto;
   margin-top: 75px;
   border: 1px solid black;
@@ -57,5 +57,49 @@
 }
 
 .details {
-  background: grey; 
+  background: grey;
+}
+
+/* Nav history, modularize. */
+.nav-history {
+  margin-bottom: 30px;
+  background: white;
+}
+
+/* Product Page styles; modularize. */
+
+.product-header {
+  height: 20%;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.product-header > h2 {
+  margin-bottom: 15px;
+  font-size: 3rem;
+}
+
+.product-header > h3 {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.product-info {
+  padding: 10px;
+}
+
+.product-info:nth-child(2n+1) {
+  background: lightgrey;
+}
+
+.description {
+  padding: 10px;
+  height: 40%;
+
+
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+
+  background: lightgrey;
 }
