@@ -15,7 +15,7 @@ class SiteBody extends Component {
         <div className="target-container">
           {/* either the product index or individual product page should render here. */}
           {/* switch via state change? */}
-          <ProductPage />
+          <ProductIndex />
         </div>
       </div>
     );
