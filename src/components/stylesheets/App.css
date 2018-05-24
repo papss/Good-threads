@@ -48,15 +48,17 @@
 }
 
 .product-section {
-  width: 50%;
+  /* width: 50%; */
   height: 70vh;
 }
 
-.img {
+.img-section {
+  width: 60%;
   background: white;
 }
 
-.details {
+.detail-section {
+  width: 40%;
   background: grey;
 }
 
@@ -102,4 +104,44 @@
   line-height: 1.5;
 
   background: lightgrey;
+}
+
+
+/* product options */
+.product-options {
+  margin-top: 15px;
+}
+
+.options-box {
+  display: inline-block;
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.9;
+  border: 1px solid black;
+}
+
+/* product button: */
+.product-btn {
+  padding: 10px;
+}
+
+/* option-box colors: */
+.white {
+  background: white;
+}
+
+.black {
+  background: black;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
 }
