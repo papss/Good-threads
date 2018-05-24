@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavHistory           from './NavHistory';
+import ProductIndex         from './ProductIndex';
 import ProductPage          from './ProductPage';
 import                           './stylesheets/App.css';
 
