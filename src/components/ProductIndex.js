@@ -13,7 +13,7 @@ class ProductIndex extends Component {
               {/* product thumbnail image goes here */}
             </div>
             <div className="index-details">
-              <h3> Product Name </h3>
+              <h3> <a href=""> Product Name </a> </h3>
               <h4> $1000.99 </h4>
             </div>
           </div>
@@ -23,7 +23,7 @@ class ProductIndex extends Component {
               {/* product thumbnail image goes here */}
             </div>
             <div className="index-details">
-              <h3> Product Name </h3>
+              <h3> <a href=""> Product Name </a> </h3>
               <h4> $1000.99 </h4>
             </div>
           </div>
@@ -33,7 +33,7 @@ class ProductIndex extends Component {
               {/* product thumbnail image goes here */}
             </div>
             <div className="index-details">
-              <h3> Product Name </h3>
+              <h3> <a href=""> Product Name </a> </h3>
               <h4> $1000.99 </h4>
             </div>
           </div>
@@ -43,7 +43,7 @@ class ProductIndex extends Component {
               {/* product thumbnail image goes here */}
             </div>
             <div className="index-details">
-              <h3> Product Name </h3>
+              <h3> <a href=""> Product Name </a> </h3>
               <h4> $1000.99 </h4>
             </div>
           </div>

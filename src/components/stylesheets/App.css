@@ -37,7 +37,6 @@
   width: 65%;
   margin: auto;
   margin-top: 75px;
-  border: 1px solid black;
 }
 
 /* Product Page styles */
@@ -65,7 +64,10 @@
 /* Nav history, modularize. */
 .nav-history {
   margin-bottom: 30px;
-  background: white;
+}
+
+.nav-history-link {
+  display: inline-block;
 }
 
 /* Product Page styles; modularize. */
