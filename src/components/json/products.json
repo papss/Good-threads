@@ -1,8 +1,33 @@
-[
-  {
-  "productId": 1,
-  "productName": "Basic T-Shirt",
-  "productPrice": "1000.99",
-  "productDescription": "A comfy T-shirt",
-  }
-]
+{
+  "products":
+  [
+    {
+      "productId": 0,
+      "productName": "Basic T-Shirt",
+      "productPrice": 1000.99,
+      "hasDiscount": false,
+        "discountPrice": null,
+      "description": "A comfy shirt",
+      "productSizes": [
+        "small", "medium", "large", "extra large"
+      ],
+      "colours": [
+        "red", "blue", "black", "white"
+      ]
+    },
+    {
+      "productId": 1,
+      "productName": "Basic Jeans",
+      "productPrice": 1211.99,
+      "hasDiscount": false,
+        "discountPrice": null,
+      "description": "Basic fitted jeans",
+      "productSizes": [
+        "small", "medium", "large", "extra large"
+      ],
+      "colours": [
+        "navy", "blue", "black", "white"
+      ]
+    }
+  ]
+}

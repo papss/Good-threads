@@ -1,0 +1,14 @@
+{
+  "productId": 1,
+  "productName": "Basic Jeans",
+  "productPrice": 1211.99,
+  "hasDiscount": false,
+    "discountPrice": null,
+  "description": "Basic fitted jeans",
+  "productSizes": [
+    "small", "medium", "large", "extra large"
+  ],
+  "colours": [
+    "navy", "blue", "black", "white"
+  ]
+}

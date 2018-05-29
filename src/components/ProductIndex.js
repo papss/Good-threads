@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { products }         from './json/products.json';
 import                           './stylesheets/App.css';
+
 
 class ProductIndex extends Component {
   render() {
@@ -8,45 +10,19 @@ class ProductIndex extends Component {
 
         <div className="index-container">
 
-          <div className="index-product">
-            <div className="index-img">
-              {/* product thumbnail image goes here */}
-            </div>
-            <div className="index-details">
-              <h3> <a href=""> Product Name </a> </h3>
-              <h4> $1000.99 </h4>
-            </div>
-          </div>
-
-          <div className="index-product">
-            <div className="index-img">
-              {/* product thumbnail image goes here */}
-            </div>
-            <div className="index-details">
-              <h3> <a href=""> Product Name </a> </h3>
-              <h4> $1000.99 </h4>
-            </div>
-          </div>
-
-          <div className="index-product">
-            <div className="index-img">
-              {/* product thumbnail image goes here */}
-            </div>
-            <div className="index-details">
-              <h3> <a href=""> Product Name </a> </h3>
-              <h4> $1000.99 </h4>
-            </div>
-          </div>
-
-          <div className="index-product">
-            <div className="index-img">
-              {/* product thumbnail image goes here */}
-            </div>
-            <div className="index-details">
-              <h3> <a href=""> Product Name </a> </h3>
-              <h4> $1000.99 </h4>
-            </div>
-          </div>
+          {
+            products.map(function(product) {
+              return    <div className="index-product">
+                          <div className="index-img">
+                            {/* product thumbnail image goes here */}
+                          </div>
+                          <div className="index-details">
+                            <h3> <a href=""> {product.productName} </a> </h3>
+                            <h4> {product.productPrice} </h4>
+                          </div>
+                        </div>
+            })
+          }
 
         </div>
 
