@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { products }         from './json/products.json';
 import                           './stylesheets/App.css';
 
 class ProductPage extends Component {
@@ -55,7 +56,7 @@ class ProductPage extends Component {
                 <div className="options-box black"> { /* black */ } </div>
                 <div className="options-box red"> { /* red */ } </div>
                 <div className="options-box blue"> { /* blue */ } </div>
-                
+
               </div>
 
             </div>

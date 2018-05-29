@@ -17,8 +17,8 @@ class ProductIndex extends Component {
                             {/* product thumbnail image goes here */}
                           </div>
                           <div className="index-details">
-                            <h3> <a href=""> {product.productName} </a> </h3>
-                            <h4> {product.productPrice} </h4>
+                            <h3> <a href=""> {product.name} </a> </h3>
+                            <h4> {product.price} </h4>
                           </div>
                         </div>
             })

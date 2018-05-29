@@ -12,3 +12,13 @@
     "navy", "blue", "black", "white"
   ]
 }
+
+<div className="index-product">
+  <div className="index-img">
+    {/* product thumbnail image goes here */}
+  </div>
+  <div className="index-details">
+    <h3> <a href=""> {product.name} </a> </h3>
+    <h4> {product.price} </h4>
+  </div>
+</div>
