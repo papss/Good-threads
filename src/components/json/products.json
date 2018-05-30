@@ -16,19 +16,19 @@
         "red", "blue", "black", "white"
       ]
     },
-    
+
     {
       "id": 0,
-      "name": "Basic T-Shirt",
-      "price": 1000.99,
+      "name": "Basic Jeans",
+      "price": 1200.99,
       "hasDiscount": false,
         "discountPrice": null,
-      "description": "A comfy shirt",
+      "description": "Standard slim fit jeans.",
       "productSizes": [
         "small", "medium", "large", "extra large"
       ],
       "colours": [
-        "red", "blue", "black", "white"
+        "navy", "blue", "black", "white"
       ]
     }
 
