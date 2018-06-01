@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
 import { products }         from './json/products.json';
-import                           './stylesheets/App.css';
-
 
 class ProductIndex extends Component {
-
-  constructor(props){
-    super(props)
-    this.state = { products: [] }
-  }
 
   render() {
     return (
@@ -19,7 +12,7 @@ class ProductIndex extends Component {
           {
             products.map(function(product) {
 
-              return    <div className="index-product">
+              return    <div className="index-product" key={product.id}>
                           <div className="index-img">
                             {/* product thumbnail image goes here */}
                           </div>

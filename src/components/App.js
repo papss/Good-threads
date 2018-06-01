@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header               from './Header';
-import SiteBody             from './SiteBody';
+import ProductContainer     from './ProductContainer';
 import                           './stylesheets/App.css';
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
           <Header />
         </div>
         <div className="app-body">
-          <SiteBody />
+          <ProductContainer />
         </div>
       </div>
     );
