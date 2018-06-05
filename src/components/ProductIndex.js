@@ -1,13 +1,40 @@
 import React, { Component } from 'react';
-// import { products }         from './json/products.json';
+import { products }         from './json/products.json';
 
 class ProductIndex extends Component {
 
+  constructor(props){
+    super(props)
+    this.state = { products: [] }
+  }
+
   render() {
     return (
-      <h2>product index</h2>
-    )
+      <div className="product-index">
+
+        <div className="index-container">
+
+          {
+            products.map(function(product) {
+
+              return    <div className="index-product" key={product.id}>
+                          <div className="index-img">
+                            {/* product thumbnail image goes here */}
+                          </div>
+                          <div className="index-details">
+                            <h3> <a href=""> {product.name} </a> </h3>
+                            <h4> {product.price} </h4>
+                          </div>
+                        </div>
+
+            })
+          }
+
+        </div>
+
+      </div>
+    );
   }
 }
 
-export default ProductIndex;
+export default ProductIndex
